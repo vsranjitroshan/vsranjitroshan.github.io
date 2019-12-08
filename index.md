@@ -2,7 +2,7 @@
 I am a undergrad student who found his flow in drone design and development. Feel free to check my projects and works.
 
 ## Project Index 
--> **Python API to automate belt drive design**
+-> **Python API to automate belt drive design** <br />
 -> **Data logging API for Drone test rig**
 
 Python API to automate belt drive design
