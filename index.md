@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Ranjit Roshan
 
-You can use the [editor on GitHub](https://github.com/vsranjitroshan/vsranjitroshan.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a undergrad student who found his flow in drone design and development. Feel free to check my projects and works.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
