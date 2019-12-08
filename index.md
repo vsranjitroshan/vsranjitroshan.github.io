@@ -44,9 +44,5 @@ The ride frequency is a fucntion of the front and rear spring attributes, sprung
 <img src = "images/flat-ride.JPG">
 _Curb weight plot_
 <img src = "images/Curb-Plot.PNG">
-_Gross Vehicle Weight Plot_
-<img src = "images/gvm-plot.PNG">
-_Half Load Plot
-<img src = "images/half-load-plot.PNG">
 
 
