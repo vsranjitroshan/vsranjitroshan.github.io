@@ -6,6 +6,7 @@ I am a undergrad student who found his flow in drone design and development. Fee
 -> **Data logging API for Drone test rig** <br />
 -> **Damping characteristics visualisation using Excel** <br />
 -> **Vehicle flat ride curve for different configurations - Gross and half load** <br />
+-> **H-I-X Quadcopter frame design fabrication and flight** <br />
 
 Python API to automate belt drive design
 =============================================================================
@@ -52,6 +53,11 @@ H-I-X Quadcopter frame design fabrication and flight
 The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
 
 <img src = "images/sq.jpg" float="center">
+
+Two motor test rig to understand PID Tuning
+=============================================================================
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with excepttions such as PI and PD which are like derivated of PID of one knows how to tune a PID system in drones. The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulated at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
+
 
 
 
