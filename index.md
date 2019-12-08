@@ -41,8 +41,12 @@ Vehicle flat ride curve for different configurations - Gross and half load
 
 The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass. The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo. The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea. Hence this plot is used to analyze the oscillations.
 
-<img src = "images/flat_ride.JPG">
+<img src = "images/flat-ride.JPG">
+_Curb weight plot_
 <img src = "images/Curb-Plot.PNG">
+_Gross Vehicle Weight Plot_
 <img src = "images/gvm-plot.PNG">
+_Half Load Plot
 <img src = "images/half-load-plot.PNG">
+
 
