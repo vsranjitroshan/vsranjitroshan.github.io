@@ -3,7 +3,9 @@ I am a undergrad student who found his flow in drone design and development. Fee
 
 ## Project Index 
 -> **Python API to automate belt drive design** <br />
--> **Data logging API for Drone test rig**
+-> **Data logging API for Drone test rig** <br />
+-> **Damping characteristics visualisation using Excel** <br />
+-> **Vehicle flat ride curve for different configurations - Gross and half load** <br />
 
 Python API to automate belt drive design
 =============================================================================
@@ -44,5 +46,11 @@ The ride frequency is a fucntion of the front and rear spring attributes, sprung
 <img src = "images/flat-ride.JPG">
 _Curb weight plot_
 <img src = "images/Curb-Plot.PNG">
+
+H-I-X Quadcopter frame design fabrication and flight
+=============================================================================
+The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a mixed frame. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
+
+
 
 
