@@ -1,9 +1,11 @@
 ## Project Index 
--> **Python API to automate belt drive design** <br />
--> **Data logging API for Drone test rig** <br />
--> **Damping characteristics visualisation using Excel** <br />
--> **Vehicle flat ride curve for different configurations - Gross and half load** <br />
--> **H-I-X Quadcopter frame design fabrication and flight** <br />
+1. **Python API to automate belt drive design** <br />
+2. **Data logging API for Drone test rig** <br />
+3. **Damping characteristics visualisation using Excel** <br />
+4. **Vehicle flat ride curve for different configurations - Gross and half load** <br />
+5. **H-I-X Quadcopter frame design fabrication and flight** <br />
+6. **Two motor test rig to understand PID Tuning** <br />
+7. **Drone development for a national level robotics competition** <br />
 
 Python API to automate belt drive design
 =============================================================================
@@ -61,7 +63,11 @@ PID (Proportional, Integral and Derivative) controller is the most common contro
 _PID Test Rig_
 <img src = "images/pid_test_rig.JPG">
 
+Drone development for a national level robotics competition
+=============================================================================
+The challenge is to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm. We designed to design the frame using aluminium with some weight reduction plans. Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal. We created a retractable landing gear system completely by ourselves from scratch and wrote a ground station program to control the retracting action from it. We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity. The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
 
-
-
-
+<iframe src="https://drive.google.com/file/d/1fvGgsG8aiVjTWarVCdr8KI2V7szHVUk7/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
