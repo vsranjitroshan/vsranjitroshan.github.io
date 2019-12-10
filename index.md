@@ -1,6 +1,3 @@
-## Ranjit Roshan
-I am a undergrad student who found his flow in drone design and development. Feel free to check my projects and works.
-
 ## Project Index 
 -> **Python API to automate belt drive design** <br />
 -> **Data logging API for Drone test rig** <br />
@@ -54,6 +51,7 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 
 <img src = "images/sq.jpg" float="center">
 <iframe src="https://drive.google.com/file/d/1c34mnGKpOHLM7QSWEa2uD260kSp4bQb5/preview" width="480" height="976"></iframe>
+
 
 Two motor test rig to understand PID Tuning
 =============================================================================
