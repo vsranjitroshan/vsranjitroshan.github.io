@@ -53,7 +53,7 @@ H-I-X Quadcopter frame design fabrication and flight
 The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
 
 <img src = "images/sq.jpg" float="center">
-<video src="https://drive.google.com/file/d/1c34mnGKpOHLM7QSWEa2uD260kSp4bQb5/view?usp=sharing" width="320" height="200" controls preload></video>
+<iframe src="https://drive.google.com/file/d/1c34mnGKpOHLM7QSWEa2uD260kSp4bQb5/preview" width="640" height="480"></iframe>
 
 Two motor test rig to understand PID Tuning
 =============================================================================
