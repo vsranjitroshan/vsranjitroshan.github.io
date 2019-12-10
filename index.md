@@ -51,7 +51,8 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 
 <img src = "images/sq.jpg" float="center">
 <iframe src="https://drive.google.com/file/d/1c34mnGKpOHLM7QSWEa2uD260kSp4bQb5/preview" width="640" height="480"></iframe>
-
+<iframe src="https://drive.google.com/file/d/1-RSGKKv0GwIDacaPOvrMHfJP8nyZOOQL/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="640" height="480"></iframe>
 
 Two motor test rig to understand PID Tuning
 =============================================================================
