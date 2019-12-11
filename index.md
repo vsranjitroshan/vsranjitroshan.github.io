@@ -1,11 +1,12 @@
 ## Project Index 
 1. **Python API to automate belt drive design** [go](#projecta) <br />
 2. **Data logging API for Drone test rig** [go](#projectb) <br />
-3. **Damping characteristics visualisation using Excel** <br />
-4. **Vehicle flat ride curve for different configurations - Gross and half load** <br />
-5. **H-I-X Quadcopter frame design fabrication and flight** <br />
-6. **Two motor test rig to understand PID Tuning** <br />
-7. **Drone development for a national level robotics competition** <br />
+3. **Damping characteristics visualisation using Excel** [go](#projectc) <br />
+4. **Vehicle flat ride curve for different configurations - Gross and half load** [go](#projectd) <br />
+5. **H-I-X Quadcopter frame design fabrication and flight** [go](#projecte) <br />
+6. **Two motor test rig to understand PID Tuning** [go](#projectf) <br />
+7. **Drone development for a national level robotics competition** [go](#projectg) <br />
+8. **Bicopter controller circuit design** [go](#projecth) <br />
 
 <a name="projecta"></a>
 
@@ -35,12 +36,16 @@ _Data and Meta files:_
 <img src = "images/dl_raw_data.JPG">
 <img src = "images/dl_data_files.JPG">
 
+<a name="projectc"></a>
+
 Damping characteristics visualisation using Excel 
 =============================================================================
 
 Based on the spring and damper hard point data of a vehicle te compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics
 
 <img src = "images/damping_chart.JPG">
+
+<a name="projectd"></a>
 
 Vehicle flat ride curve for different configurations - Gross and half load
 =============================================================================
@@ -51,6 +56,8 @@ The ride frequency is a fucntion of the front and rear spring attributes, sprung
 _Curb weight plot_
 <img src = "images/Curb-Plot.PNG">
 
+<a name="projecte"></a>
+
 H-I-X Quadcopter frame design fabrication and flight
 =============================================================================
 The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
@@ -60,12 +67,16 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 <iframe src="https://drive.google.com/file/d/1-RSGKKv0GwIDacaPOvrMHfJP8nyZOOQL/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
 
+<a name="projectf"></a>
+
 Two motor test rig to understand PID Tuning
 =============================================================================
 PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with excepttions such as PI and PD which are like derivated of PID of one knows how to tune a PID system in drones. The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
 
 _PID Test Rig_
 <img src = "images/pid_test_rig.JPG">
+
+<a name="projectg"></a>
 
 Drone development for a national level robotics competition
 =============================================================================
@@ -76,6 +87,8 @@ The challenge is to design a frame based on given constraints such as max gross 
 <iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/1WmLQ0-KMnjIk4gx-XqOTp5qRfpA_5LjI/preview" width="440" height="280"></iframe>
+
+<a name="projecth"></a>
 
 Bicopter controller circuit design
 =============================================================================
