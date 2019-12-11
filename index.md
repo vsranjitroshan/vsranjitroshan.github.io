@@ -8,13 +8,14 @@
 7. **Drone development for a national level robotics competition** [go](#projectg) <br />
 8. **Bicopter controller circuit design** [go](#projecth) <br />
 9. **Optical low cost tachometer circuit design** [go](#projecti) <br />
+10. **Robotic Arm design and circuit fabrication** [go](#projectj) <br />
 
 <a name="projecta"></a>
 
 Python API to automate belt drive design
 =============================================================================
 
-The Project involves the creation of an application to automate the design process of a flat-belt drive system. The manual design calculation is a tiresome process involving many substitutions in pre-derived formulae and in case of design failure during stress testing, the design process has to be repeated again from the beginning. This is not only a tiresome process but also an inefficient one. Thus with the advancement of faster computing and better user interfaces an application can be programmed or created to automate the above explained process. These programs can produce results with viable inputs in seconds. Design failure can be treated with absolute simplicity i.e. just by altering the input values and the rest of the process is executed once again automatically at the click of a button.
+The Project involves the creation of an application to automate the design process of a flat-belt drive system. The manual design calculation is a tiresome process involving many substitutions in pre-derived formulae and in case of design failure during stress testing, the design process has to be repeated again from the beginning. This is not only a tiresome process but also an inefficient one. Thus with the advancement of faster computing and better user interfaces an application can be programmed or created to automate the above explained process. These programs can produce results with viable inputs in milli-seconds. Design failure can be treated with absolute simplicity i.e. just by altering the input values and the rest of the process is executed once again automatically with a click.
 
 Github: <br />
 _Python API Screen:_
@@ -109,10 +110,10 @@ Metrology is the study of measurements standards and techniques. This being a pa
 
 Robotic Arm design and circuit fabrication
 =============================================================================
-Robotic arm are of various types and this is a articualated type which mimic's a human arm. I went to a workshop on 3D printing and found a service provider near me. For the kinematics of machinetry subject, I modelled the robotic arm and 3D printed it. The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication like just 2$ for 10 PCB's. I tried their service and got the board within a week time. I solered the components and tested the circuit. The design was not good and had a lot of assembly issues since I didn't account for the accuracy and other 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
+Robotic arm are of various types and this is an articualated type which mimic's a human arm. I went to a workshop on 3D printing and found a service provider near me. For the kinematics of machinery project, I modelled the robotic arm and 3D printed it. The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's). I tried their service and got the board within a week time. I solered the components and tested the circuit. The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
 
 Tips:  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.
-       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body 
+       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body. 
        * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
 
 <iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="640" height="480"></iframe>
