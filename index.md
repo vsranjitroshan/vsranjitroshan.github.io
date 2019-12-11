@@ -7,6 +7,7 @@
 6. **Two motor test rig to understand PID Tuning** [go](#projectf) <br />
 7. **Drone development for a national level robotics competition** [go](#projectg) <br />
 8. **Bicopter controller circuit design** [go](#projecth) <br />
+9. **Optical low cost tachometer circuit design** [go](#projecti) <br />
 
 <a name="projecta"></a>
 
@@ -95,3 +96,11 @@ Bicopter controller circuit design
 The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do the work of tilting the thruster axis to control roll and yaw motion. Since aluminium is the primiary material we work with due to material availability, machining and cost effectiveness the circuits often tend to shortcircuit when testing and during crashes. In order to do quick testing one cannot keep insulating and removing the insulation all the time to change and tune PID values. Hence I designed this circuit with a external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
 
 <iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="640" height="480"></iframe>
+
+<a name="projecti"></a>
+
+Optical low cost tachometer circuit design
+=============================================================================
+Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project the designing a decent tachometer based on available tools. After going through various aspects to measure RPM (Revolutions per minute) like measuring using encoder, hall effect etcetera optical obstruction seemed like the way to go. The arduino has a interrupt function which is called whenver a change in voltage is observed in the analog pin with refrence to another analog pin. The interrupt handler has a counter which gets incremented every time it is called and a refresh rate of 250 hz (i.e, interrupt being called 250 timed per second) can be achieved quite effortlessly. A laser is pointed on two LDR's (Light dependent diodes) which are monitored for interrupts by the controller. This is a non-contact type tachometer but the only requirement is that the rotating object must have a slim protrusion which can act as a obstruction to the laser source. The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano. The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
+
+<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="640" height="480"></iframe>
