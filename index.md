@@ -1,13 +1,13 @@
 ## Project Index 
-1. **Python API to automate belt drive design** [go](#pythona) <br />
-2. **Data logging API for Drone test rig** [go](#pythonb) <br />
+1. **Python API to automate belt drive design** [go](#project-a) <br />
+2. **Data logging API for Drone test rig** [go](#project-b) <br />
 3. **Damping characteristics visualisation using Excel** <br />
 4. **Vehicle flat ride curve for different configurations - Gross and half load** <br />
 5. **H-I-X Quadcopter frame design fabrication and flight** <br />
 6. **Two motor test rig to understand PID Tuning** <br />
 7. **Drone development for a national level robotics competition** <br />
 
-<a name="pythona"></a>
+<a name="project-a"></a>
 
 Python API to automate belt drive design
 =============================================================================
@@ -21,7 +21,7 @@ _Output in PDF Format:_
 <img src = "images/tsd_input.PNG">
 <img src = "images/tsd_output.PNG">
 
-<a name="pythonb"></a>
+<a name="project-b"></a>
 
 Data logging API for Drone test rig
 =============================================================================
@@ -76,3 +76,9 @@ The challenge is to design a frame based on given constraints such as max gross 
 <iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/1WmLQ0-KMnjIk4gx-XqOTp5qRfpA_5LjI/preview" width="440" height="280"></iframe>
+
+Bicopter controller circuit design
+=============================================================================
+The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do the work of tilting the thruster axis to control roll and yaw motion. Since aluminium is the primiary material we work with due to material availability, machining and cost effectiveness the circuits often tend to shortcircuit when testing and during crashes. In order to do quick testing one cannot keep insulating and removing the insulation all the time to change and tune PID values. Hence I designed this circuit with a external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
+
+<iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="640" height="480"></iframe>
