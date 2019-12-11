@@ -1,13 +1,13 @@
 ## Project Index 
-1. **Python API to automate belt drive design** [Go](#pythonA) <br />
-2. **Data logging API for Drone test rig** <a href="#python_api_2">Go</a> <br />
+1. **Python API to automate belt drive design** [go](#pythona) <br />
+2. **Data logging API for Drone test rig** [go](#pythonb) <br />
 3. **Damping characteristics visualisation using Excel** <br />
 4. **Vehicle flat ride curve for different configurations - Gross and half load** <br />
 5. **H-I-X Quadcopter frame design fabrication and flight** <br />
 6. **Two motor test rig to understand PID Tuning** <br />
 7. **Drone development for a national level robotics competition** <br />
 
-<a name="pythonA"></a>
+<a name="pythona"></a>
 
 Python API to automate belt drive design
 =============================================================================
@@ -21,7 +21,7 @@ _Output in PDF Format:_
 <img src = "images/tsd_input.PNG">
 <img src = "images/tsd_output.PNG">
 
-<a name="python_api_2"></a>
+<a name="pythonb"></a>
 
 Data logging API for Drone test rig
 =============================================================================
