@@ -1,14 +1,14 @@
 ## Project Index 
-1. **Python API to automate belt drive design** [go](#projecta) <br />
-2. **Data logging API for Drone test rig** [go](#projectb) <br />
-3. **Damping characteristics visualisation using Excel** [go](#projectc) <br />
-4. **Vehicle flat ride curve for different configurations - Gross and half load** [go](#projectd) <br />
-5. **H-I-X Quadcopter frame design fabrication and flight** [go](#projecte) <br />
-6. **Two motor test rig to understand PID Tuning** [go](#projectf) <br />
-7. **Drone development for a national level robotics competition** [go](#projectg) <br />
-8. **Bicopter controller circuit design** [go](#projecth) <br />
-9. **Optical low cost tachometer circuit design** [go](#projecti) <br />
-10. **Robotic Arm design and circuit fabrication** [go](#projectj) <br />
+1. **Python API to automate belt drive design** [read more](#projecta) <br />
+2. **Data logging API for Drone test rig** [read more](#projectb) <br />
+3. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
+4. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
+5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
+6. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
+7. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+8. **Bicopter controller circuit design** [read more](#projecth) <br />
+9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
+10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
 <a name="projecta"></a>
 
@@ -65,8 +65,6 @@ H-I-X Quadcopter frame design fabrication and flight
 The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
 
 <img src = "images/sq.jpg" float="center">
-<iframe src="https://drive.google.com/file/d/1c34mnGKpOHLM7QSWEa2uD260kSp4bQb5/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1-RSGKKv0GwIDacaPOvrMHfJP8nyZOOQL/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
 
 <a name="projectf"></a>
