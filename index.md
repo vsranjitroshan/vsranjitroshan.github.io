@@ -1,3 +1,7 @@
+## Research Papers
+1. ** Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of GCAT 2019 Banglore,India, Oct. 18-20, 2019.**
+   <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="640" height="480"></iframe>
+
 ## Project Index <a name="projectlist"></a>
 1. **Python API to automate belt drive design** [read more](#projecta)
 
