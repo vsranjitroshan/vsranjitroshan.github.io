@@ -1,6 +1,6 @@
 ## Project Index 
-1. <div style="background-image:url(images/header1.jpg);background-repeat: no-repeat;";>Python API to automate belt drive design** <a href="#projecta">[read more]</a></div> <br />
-2. <div style="background-image:url(images/header1.jpg);background-repeat: no-repeat;";>**Data logging API for Drone test rig**<a href="#projectb"> [read more]</a></div> <br />
+1. <!--<div style="background-image:url('images/header1.jpg');background-repeat: no-repeat;">-->Python API to automate belt drive design** <a href="#projecta">[read more]</a><!--</div>--><br>
+2. <!--<div style="background-image:url(images/header1.jpg);background-repeat: no-repeat;";>-->**Data logging API for Drone test rig**<a href="#projectb"> [read more]</a><!--</div> --><br />
 3. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
 4. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
 5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
