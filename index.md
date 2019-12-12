@@ -1,19 +1,30 @@
-## Project Index 
-1. **Python API to automate belt drive design** <a href="#projecta">[read more]</a><br>
-2. **Data logging API for Drone test rig**<a href="#projectb"> [read more]</a><br />
+## Project Index <a name="projectlist"></a>
+1. **Python API to automate belt drive design** [read more](#projecta)
+
+2. **Data logging API for Drone test rig** [read more](#projectb)<br />
+
 3. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
+
 4. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
+
 5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
+
 6. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
+
 7. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+
 8. **Bicopter controller circuit design** [read more](#projecth) <br />
+
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
+
 10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+</div>
 
-<div id="projecta">
+<a name="projecta"></a>
 
-Python API to automate belt drive design
+Python API to automate belt drive design     
 =============================================================================
+[Back to Project List](#projectlist)
 
 The Project involves the creation of an application to automate the design process of a flat-belt drive system. The manual design calculation is a tiresome process involving many substitutions in pre-derived formulae and in case of design failure during stress testing, the design process has to be repeated again from the beginning. This is not only a tiresome process but also an inefficient one. Thus with the advancement of faster computing and better user interfaces an application can be programmed or created to automate the above explained process. These programs can produce results with viable inputs in milli-seconds. Design failure can be treated with absolute simplicity i.e. just by altering the input values and the rest of the process is executed once again automatically with a click.
 
@@ -23,8 +34,8 @@ _Python API Screen:_
 _Output in PDF Format:_
 <img src = "images/tsd_input.PNG">
 <img src = "images/tsd_output.PNG">
-</div>
-<div id="projectb">
+
+<a name="projectb"></a>
 
 Data logging API for Drone test rig
 =============================================================================
@@ -37,7 +48,7 @@ _API Interface:_
 _Data and Meta files:_
 <img src = "images/dl_raw_data.JPG">
 <img src = "images/dl_data_files.JPG">
-</div>
+
 <a name="projectc"></a>
 
 Damping characteristics visualisation using Excel 
