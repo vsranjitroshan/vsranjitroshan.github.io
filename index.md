@@ -52,7 +52,12 @@ _Output in PDF Format:_
 Data logging API for Drone test rig
 =============================================================================
 
-In order to understand and tune the drone features like battery life, PID values, throttle curve etc there is the need for data logging. This API provides the tool to record data and is based on Pyserial and Arduino library. Hence the program is portable to any place just using some arduino pins and a USB-COM Port. The program saves the data in a time-stamped file with a meta-file which stores additional user data during the initial and final stages of recording. The data is stored in plain text documents as comma seperated files(.csv) which can used in data analysis tools like pandas and excel.
+**Overview**<br>
+In order to understand and tune the drone features like battery life, PID values, throttle curve etc there is the need for data logging. This API provides the tool to record data and is based on Pyserial and Arduino library.
+**Features**<br>
+-The program is portable to any place just using some arduino pins and a USB-COM Port.
+-The program saves the data in a time-stamped file with a meta-file which stores additional user data during the initial and final stages of recording.
+-The data is stored in plain text documents as comma seperated files(.csv) which can used in data analysis tools like pandas and excel.
 
 Github: <br />
 _API Interface:_
