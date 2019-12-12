@@ -165,7 +165,18 @@ Hence I designed this circuit with an external relay circuit which once activate
 
 Optical low cost tachometer circuit design
 =============================================================================
-Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project of designing a decent tachometer based on available tools. After going through various aspects to measure RPM (Revolutions per minute) like measuring using encoder, hall effect etcetera optical obstruction seemed like the way to go. The arduino has a interrupt function which is called whenver a change in voltage is observed in the analog pin with refrence to another analog pin. The interrupt handler has a counter which gets incremented every time it is called and a refresh rate of 250 hz (i.e, interrupt being called 250 timed per second) can be achieved quite effortlessly. A laser is pointed on two LDR's (Light dependent diodes) which are monitored for interrupts by the controller. This is a non-contact type tachometer but the only requirement is that the rotating object must have a slim protrusion which can act as a obstruction to the laser source. The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano. The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
+[Back to Project List](#projectlist)
+
+**Overview:**<br>
+Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project of designing a decent tachometer based on available tools.<br>
+**The Design Process:**<br>
+- After going through various aspects to measure RPM (Revolutions per minute) like measuring using encoder, hall effect etcetera optical obstruction seemed like the way to go.<br>
+- The arduino has an interrupt function which is called whenver a change in voltage is observed in the analog pin with refrence to another analog pin.<br>
+- The interrupt handler has a counter which gets incremented every time it is called and a refresh rate of 250 hz (i.e, interrupt being called 250 timed per second) can be achieved quite effortlessly.<br>
+- A laser is pointed on two LDR's (Light dependent diodes) which are monitored for interrupts by the controller.<br>
+- This is a non-contact type tachometer but the only requirement is that the rotating object must have a slim protrusion which can act as a obstruction to the laser source.<br>
+- The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano.<br>
+- The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
 <iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="640" height="480"></iframe>
 
