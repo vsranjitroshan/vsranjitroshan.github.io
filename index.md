@@ -195,8 +195,8 @@ Robotic arm are of various types and this is an articualated type which mimic's 
 - I tried their service and got the board within a week time. I solered the components and tested the circuit.
 - The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
 
-Tips:  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.
-       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body. 
+**Tips:**<br>  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.<br>
+       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
        * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
 
 <iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="640" height="480"></iframe>
