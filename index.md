@@ -101,7 +101,7 @@ H-I-X Quadcopter frame design fabrication and flight
 [Back to Project List](#projectlist)
 
 **Overview:**<br>
-The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. 
+The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. <br>
 **Features:**<br>
 - The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together.
 - The aluminum frame is welded together with the legs at a angle to the yaw axis.
