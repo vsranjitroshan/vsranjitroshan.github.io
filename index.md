@@ -184,7 +184,16 @@ Metrology is the study of measurements standards and techniques. This being a pa
 
 Robotic Arm design and circuit fabrication
 =============================================================================
-Robotic arm are of various types and this is an articualated type which mimic's a human arm. I went to a workshop on 3D printing and found a service provider near me. For the kinematics of machinery project, I modelled the robotic arm and 3D printed it. The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's). I tried their service and got the board within a week time. I solered the components and tested the circuit. The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
+[Back to Project List](#projectlist)
+
+**Overview:**<br>
+Robotic arm are of various types and this is an articualated type which mimic's a human arm.
+**The Design Process:**<br>
+- I went to a workshop on 3D printing and found a service provider near me.
+- For the kinematics of machinery project, I modelled the robotic arm and 3D printed it.
+- The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's).
+- I tried their service and got the board within a week time. I solered the components and tested the circuit.
+- The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
 
 Tips:  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.
        * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body. 
