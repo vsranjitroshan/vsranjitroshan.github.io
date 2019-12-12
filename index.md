@@ -73,9 +73,10 @@ Damping characteristics visualisation using Excel
 =============================================================================
 [Back to Project List](#projectlist)
 
-Based on the spring and damper hard point data of a vehicle te compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics
+**Features**<br>
+Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics<br>
 
-<img src = "images/damping_chart.JPG">
+<img src = "images/damping_chart.JPG" border="5">
 
 <a name="projectd"></a>
 
@@ -83,11 +84,15 @@ Vehicle flat ride curve for different configurations - Gross and half load
 =============================================================================
 [Back to Project List](#projectlist)
 
-The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass. The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo. The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea. Hence this plot is used to analyze the oscillations.
+**Overview**
+This plot is used to analyze the ride frequency oscillations.<br>
 
-<img src = "images/flat-ride.JPG">
+**Ride Frequency in Detail**<br>
+The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass. The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo. The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
+
+<img src = "images/flat-ride.JPG" border="5">
 _Curb weight plot_
-<img src = "images/Curb-Plot.PNG">
+<img src = "images/Curb-Plot.PNG" border="5">
 
 <a name="projecte"></a>
 
