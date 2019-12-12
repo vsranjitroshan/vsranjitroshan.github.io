@@ -116,7 +116,10 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 
 Two motor test rig to understand PID Tuning
 =============================================================================
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with excepttions such as PI and PD which are like derivated of PID of one knows how to tune a PID system in drones. The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
+[Back to Project List](#projectlist)
+
+**PID:**<br>
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are like derivated of PID of one knows how to tune a PID system in drones. The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
 
 _PID Test Rig_
 <img src = "images/pid_test_rig.JPG">
@@ -125,7 +128,16 @@ _PID Test Rig_
 
 Drone development for a national level robotics competition
 =============================================================================
-The challenge is to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm. We designed to design the frame using aluminium with some weight reduction plans. Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal. We created a retractable landing gear system completely by ourselves from scratch and wrote a ground station program to control the retracting action from it. We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity. The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
+[Back to Project List](#projectlist)
+
+**Overview:**<br>
+The challenge is to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
+**Drone Development:**<br>
+- We planned to design the frame using aluminium with some weight reduction plans.
+- Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal.
+- We created a retractable landing gear system completely by ourselves from scratch and wrote a ground station program to control the retracting action from it.
+- We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity.
+- The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
 
 <iframe src="https://drive.google.com/file/d/1fvGgsG8aiVjTWarVCdr8KI2V7szHVUk7/preview" width="340" height="180"></iframe>
 <iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
@@ -137,6 +149,8 @@ The challenge is to design a frame based on given constraints such as max gross 
 
 Bicopter controller circuit design
 =============================================================================
+[Back to Project List](#projectlist)
+
 The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do the work of tilting the thruster axis to control roll and yaw motion. Since aluminium is the primiary material we work with due to material availability, machining and cost effectiveness the circuits often tend to shortcircuit when testing and during crashes. In order to do quick testing one cannot keep insulating and removing the insulation all the time to change and tune PID values. Hence I designed this circuit with a external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
 
 <iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="640" height="480"></iframe>
