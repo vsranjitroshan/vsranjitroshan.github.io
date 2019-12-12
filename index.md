@@ -1,6 +1,6 @@
 ## Project Index 
-1. **Python API to automate belt drive design** [read more](#projecta) <br />
-2. **Data logging API for Drone test rig** [read more](#projectb) <br />
+1. <div style="background-image:url(images/header1.jpg);background-repeat: no-repeat;";>Python API to automate belt drive design** <a href="#projecta">[read more]</a></div> <br />
+2. <div style="background-image:url(images/header1.jpg);background-repeat: no-repeat;";>**Data logging API for Drone test rig**<a href="#projectb"> [read more]</a></div> <br />
 3. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
 4. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
 5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
@@ -10,7 +10,7 @@
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
-<a name="projecta"></a>
+<div id="projecta">
 
 Python API to automate belt drive design
 =============================================================================
@@ -23,8 +23,8 @@ _Python API Screen:_
 _Output in PDF Format:_
 <img src = "images/tsd_input.PNG">
 <img src = "images/tsd_output.PNG">
-
-<a name="projectb"></a>
+</div>
+<div id="projectb">
 
 Data logging API for Drone test rig
 =============================================================================
@@ -37,7 +37,7 @@ _API Interface:_
 _Data and Meta files:_
 <img src = "images/dl_raw_data.JPG">
 <img src = "images/dl_data_files.JPG">
-
+</div>
 <a name="projectc"></a>
 
 Damping characteristics visualisation using Excel 
