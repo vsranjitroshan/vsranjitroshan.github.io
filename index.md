@@ -84,10 +84,10 @@ Vehicle flat ride curve for different configurations - Gross and half load
 =============================================================================
 [Back to Project List](#projectlist)
 
-**Overview**
+**Overview:**
 This plot is used to analyze the ride frequency oscillations.<br>
 
-**Ride Frequency in Detail**<br>
+**Ride Frequency in Detail:**<br>
 The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass. The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo. The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
 
 <img src = "images/flat-ride.JPG" border="5">
@@ -100,9 +100,16 @@ H-I-X Quadcopter frame design fabrication and flight
 =============================================================================
 [Back to Project List](#projectlist)
 
-The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together. The aluminum frame is welded together with the legs at a angle to the yaw axis. This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity. The outer cover is 3D printed using ABS plastic. APM 2.8 is used to control the drone.
+**Overview:**<br>
+The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. 
+**Features:**<br>
+- The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together.
+- The aluminum frame is welded together with the legs at a angle to the yaw axis.
+- This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity.
+- The outer cover is 3D printed using ABS plastic.
+- APM 2.8 is used to control the drone.
 
-<img src = "images/sq.jpg" float="center">
+<img src = "images/sq.jpg" float="center" border="5">
 <iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
 
 <a name="projectf"></a>
