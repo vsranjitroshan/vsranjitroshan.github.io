@@ -18,7 +18,7 @@
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
 10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
-</div>
+
 
 <a name="projecta"></a>
 
