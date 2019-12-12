@@ -131,7 +131,7 @@ Drone development for a national level robotics competition
 [Back to Project List](#projectlist)
 
 **Overview:**<br>
-The challenge is to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
+The challenge was to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
 **Drone Development:**<br>
 - We planned to design the frame using aluminium with some weight reduction plans.
 - Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal.
@@ -151,7 +151,13 @@ Bicopter controller circuit design
 =============================================================================
 [Back to Project List](#projectlist)
 
-The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do the work of tilting the thruster axis to control roll and yaw motion. Since aluminium is the primiary material we work with due to material availability, machining and cost effectiveness the circuits often tend to shortcircuit when testing and during crashes. In order to do quick testing one cannot keep insulating and removing the insulation all the time to change and tune PID values. Hence I designed this circuit with a external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
+**The Bicopter:**<br>
+The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do 
+the work of tilting the thruster axis to control roll and yaw motion.<br>
+**The Problem**<br>
+Since aluminium is the primiary material we work with, due to material availability, machining and cost effectiveness the circuits often tend to shortcircuit when testing and during crashes. In order to do quick testing one cannot keep insulating and removing the insulation all the time to change and tune PID values.<br>
+**The Solution:**<br>
+Hence I designed this circuit with an external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
 
 <iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="640" height="480"></iframe>
 
