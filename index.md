@@ -187,8 +187,6 @@ Metrology is the study of measurements standards and techniques. This being a pa
 - The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
 <iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
-_Robotic arm_
-<img src = "images/robotic_arm.JPG">
 
 <a name="projectj"></a>
 
