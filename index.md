@@ -146,6 +146,7 @@ The challenge was to design a frame based on given constraints such as max gross
 <iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/1WmLQ0-KMnjIk4gx-XqOTp5qRfpA_5LjI/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/11THzFgK_0sxOxADpVy2Rr1F-UhByDoRU/preview" width="440" height="280"></iframe>
 
 <a name="projecth"></a>
 
@@ -161,7 +162,7 @@ Since aluminium is the primiary material we work with, due to material availabil
 **The Solution:**<br>
 Hence I designed this circuit with an external relay circuit which once activated by a switch is powered by the controller itself. This can be used as a worst case kill switch but that's the most worst case.
 
-<iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="440" height="280"></iframe>
 
 <a name="projecti"></a>
 
@@ -181,6 +182,8 @@ Metrology is the study of measurements standards and techniques. This being a pa
 - The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
 <iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
+_Robotic arm_
+<img src = "images/robotic_arm.JPG">
 
 <a name="projectj"></a>
 
@@ -201,9 +204,10 @@ Robotic arm are of various types and this is an articualated type which mimic's 
        * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
        * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
 
-<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1GyhMwMNv7ejOTdoGNr2ph8AjSt81jR05/preview" width="440" height="280"></iframe>
 
 <a name="projectk"></a>
 
@@ -217,5 +221,8 @@ Implementation of a PID controller using an Arduino to control a quadcopter
  - In order to establish a closed loop controller a sensor which can detect the system changes is required. 
  - The MPU6050 6 axis Gyro and accelerometer sensor provides the data to stabilize the system. 
  - The data is collected through the I2C bus and then using filters and sensor fusion the drone inclination angle is found out. 
- - This angle is compared to the Transmitter stick inputs and the residual error is compensated using the PID controller.
+ - This angle is compared to the Transmitter stick inputs and the residual error is compensated using the PID controller.<br />
 ( I will post a detailed note on every step as soon as I complete the project)
+
+<iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
