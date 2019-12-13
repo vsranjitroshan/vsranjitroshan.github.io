@@ -1,5 +1,7 @@
 ## Research Papers
 1. _Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
+   
+   Octocopters use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about how the motors      can be placed and thrust vectoring can be used to stabilize and resume normal operation in case of motor failure or propeller            breakage. The full paper will soon be published in IEEE Xplore magazine. 
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
@@ -23,6 +25,9 @@
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
 10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+
+11. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+
 
 
 <a name="projecta"></a>
@@ -224,5 +229,4 @@ Implementation of a PID controller using an Arduino to control a quadcopter
  - This angle is compared to the Transmitter stick inputs and the residual error is compensated using the PID controller.<br />
 ( I will post a detailed note on every step as soon as I complete the project)
 
-<iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
