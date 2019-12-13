@@ -241,6 +241,6 @@ A microquad is a frame which is in the category of 250g and below. This project 
 **Process:** <br />
 The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
 
-[View Model](https://grabcad.com/library/micro-quadcopter-frame-1)
+[View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
 
 <iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
