@@ -146,6 +146,7 @@ The challenge was to design a frame based on given constraints such as max gross
 - We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity.
 - The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
 
+<iframe src="https://drive.google.com/file/d/19g-Re-91fd9U9xsiCjbfMogw3VF6hVkX/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/1fvGgsG8aiVjTWarVCdr8KI2V7szHVUk7/preview" width="340" height="180"></iframe>
 <iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
 <iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
