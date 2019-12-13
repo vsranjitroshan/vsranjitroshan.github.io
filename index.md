@@ -147,7 +147,6 @@ The challenge was to design a frame based on given constraints such as max gross
 - The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
 
 <iframe src="https://drive.google.com/file/d/19g-Re-91fd9U9xsiCjbfMogw3VF6hVkX/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1fvGgsG8aiVjTWarVCdr8KI2V7szHVUk7/preview" width="340" height="180"></iframe>
 <iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
 <iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
 <iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
@@ -242,5 +241,5 @@ A microquad is a frame which is in the category of 250g and below. This project 
 The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
 
 <video width="320" height="240" controls>
-   <source src = "https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/view" type="video/mp4">
+   <source src = "https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/preview" type="video/mp4">
 </video>
