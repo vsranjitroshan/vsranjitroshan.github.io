@@ -46,7 +46,7 @@ The manual design calculation is a tiresome process involving many substitutions
 - These programs can produce results with viable inputs in milli-seconds. <br>
 - Design failure can be treated with absolute simplicity i.e. just by altering the input values and the rest of the process is executed once again automatically with a click.
 
-Github: <br />
+[View repository on Github](https://github.com/vsranjitroshan/beltDriveDesign_python){:target="_blank"} <br />
 _Python API Screen:_
 <img src = "images/tsd_screen.JPG" border="5">
 _Output in PDF Format:_
