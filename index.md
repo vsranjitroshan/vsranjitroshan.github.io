@@ -244,3 +244,6 @@ The frame is modelled considering that the thrust is provided by 8mm coreless mo
 [View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
 
 <iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
+
+**EXTRAS**
+
