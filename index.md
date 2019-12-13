@@ -66,7 +66,7 @@ In order to understand and tune the drone features like battery life, PID values
 - The program saves the data in a time-stamped file with a meta-file which stores additional user data during the initial and final stages of recording.<br>
 - The data is stored in plain text documents as comma seperated files(.csv) which can used in data analysis tools like pandas and excel.<br>
 
-Github: <br />
+[View repository on Github](https://github.com/vsranjitroshan/dataLogger_UsbSerial_python){:target="_blank"} <br />
 _API Interface:_
 <img src = "images/dl_screen.JPG" border="5">
 _Data and Meta files:_
