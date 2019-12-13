@@ -1,7 +1,7 @@
 ## Research Papers
 1. _Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
    
-   Octocopters use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about how the motors      can be placed and thrust vectoring can be used to stabilize and resume normal operation in case of motor failure or propeller            breakage. The full paper will soon be published in IEEE Xplore magazine. 
+   Octocopters use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about how the motors      can be optimally placed and thrust vectoring can be used to stabilize and resume normal operation in case of motor failure or            propeller breakage. The full paper will soon be published in IEEE Xplore magazine. 
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
@@ -48,10 +48,10 @@ The manual design calculation is a tiresome process involving many substitutions
 
 Github: <br />
 _Python API Screen:_
-<img src = "images/tsd_screen.JPG">
+<img src = "images/tsd_screen.JPG" border="5">
 _Output in PDF Format:_
-<img src = "images/tsd_input.PNG">
-<img src = "images/tsd_output.PNG">
+<img src = "images/tsd_input.PNG" border="5">
+<img src = "images/tsd_output.PNG" border="5">
 
 <a name="projectb"></a>
 
@@ -234,11 +234,13 @@ Implementation of a PID controller using an Arduino to control a quadcopter
 
 Micro quadcopter frame design and fabrication
 =============================================================================
-[Back to Project List](#projectlist) _Dec 2019_
+[Back to Project List](#projectlist) _Nov 2017_
  
 **Overview:** <br />
 A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
 **Process:** <br />
 The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
+
+[View Model](https://grabcad.com/library/micro-quadcopter-frame-1)
 
 <iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
