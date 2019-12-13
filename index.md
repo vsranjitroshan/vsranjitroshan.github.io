@@ -1,5 +1,5 @@
 ## Research Papers
-1. _Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of GCAT 2019 Banglore,India, Oct. 18-20, 2019._
+1. _Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
@@ -29,7 +29,7 @@
 
 Python API to automate belt drive design     
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Nov 2018_
 
 **Overview :**<br>
 The Project involves the creation of an application to automate the design process of a flat-belt drive system.<br>
@@ -51,7 +51,7 @@ _Output in PDF Format:_
 
 Data logging API for Drone test rig
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Feb 2019_
 
 **Overview**<br>
 In order to understand and tune the drone features like battery life, PID values, throttle curve etc there is the need for data logging. This API provides the tool to record data and is based on Pyserial and Arduino library.<br>
@@ -71,7 +71,7 @@ _Data and Meta files:_
 
 Damping characteristics visualisation using Excel 
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
 
 **Features**<br>
 Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics<br>
@@ -82,7 +82,7 @@ Based on the spring and damper hard point data of a vehicle, the compression and
 
 Vehicle flat ride curve for different configurations - Gross and half load
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2017_
 
 **Overview:**
 This plot is used to analyze the ride frequency oscillations.<br>
@@ -98,7 +98,7 @@ _Curb weight plot_
 
 H-I-X Quadcopter frame design fabrication and flight
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2017_
 
 **Overview:**<br>
 The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. <br>
@@ -116,10 +116,12 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 
 Two motor test rig to understand PID Tuning
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
 
-**PID:**<br>
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are like derivated of PID of one knows how to tune a PID system in drones. The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
+**Overview:**<br>
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.
+**Design process**
+The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
 
 _PID Test Rig_
 <img src = "images/pid_test_rig.JPG">
@@ -128,7 +130,7 @@ _PID Test Rig_
 
 Drone development for a national level robotics competition
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _June 2019_
 
 **Overview:**<br>
 The challenge was to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
@@ -149,7 +151,7 @@ The challenge was to design a frame based on given constraints such as max gross
 
 Bicopter controller circuit design
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Nov 2019_
 
 **The Bicopter:**<br>
 The bicopter is a drone with four actuators and unlike a quadcopter the lifting thrust is provided by two and the other two actuators do 
@@ -165,7 +167,7 @@ Hence I designed this circuit with an external relay circuit which once activate
 
 Optical low cost tachometer circuit design
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2019_
 
 **Overview:**<br>
 Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project of designing a decent tachometer based on available tools.<br>
@@ -178,13 +180,13 @@ Metrology is the study of measurements standards and techniques. This being a pa
 - The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano.<br>
 - The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
-<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
 
 <a name="projectj"></a>
 
 Robotic Arm design and circuit fabrication
 =============================================================================
-[Back to Project List](#projectlist)
+[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2018_
 
 **Overview:**<br>
 Robotic arm are of various types and this is an articualated type which mimic's a human arm.
@@ -202,3 +204,18 @@ Robotic arm are of various types and this is an articualated type which mimic's 
 <iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="640" height="480"></iframe>
 <iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="640" height="480"></iframe>
 <iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="640" height="480"></iframe>
+
+<a name="projectk"></a>
+
+Quadcopter control system programming using Arduino
+=============================================================================
+[Back to Project List](#projectlist) _Dec 2019_
+
+**Overview:** <br />
+Implementation of a PID controller using an Arduino to control a quadcopter
+**Process:** <br />
+ - In order to establish a closed loop controller a sensor which can detect the system changes is required. 
+ - The MPU6050 6 axis Gyro and accelerometer sensor provides the data to stabilize the system. 
+ - The data is collected through the I2C bus and then using filters and sensor fusion the drone inclination angle is found out. 
+ - This angle is compared to the Transmitter stick inputs and the residual error is compensated using the PID controller.
+( I will post a detailed note on every step as soon as I complete the project)
