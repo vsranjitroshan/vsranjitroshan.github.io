@@ -229,3 +229,18 @@ Implementation of a PID controller using an Arduino to control a quadcopter
 ( I will post a detailed note on every step as soon as I complete the project)
 
 <iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
+
+<a name="projectl"></a>
+
+Micro quadcopter frame design and fabrication
+=============================================================================
+[Back to Project List](#projectlist) _Dec 2019_
+ 
+**Overview:** <br />
+A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
+**Process:** <br />
+The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
+
+<video width="320" height="240" controls>
+   <source src = "https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/view" type="video/mp4">
+</video>
