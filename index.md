@@ -240,6 +240,6 @@ A microquad is a frame which is in the category of 250g and below. This project 
 **Process:** <br />
 The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
 
-<video width="320" height="240" controls>
-   <source src = "https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/preview" type="video/mp4">
-</video>
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/preview" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
