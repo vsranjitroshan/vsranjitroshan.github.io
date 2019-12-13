@@ -28,6 +28,7 @@
 
 11. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
+12. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
 
 <a name="projecta"></a>
@@ -240,6 +241,4 @@ A microquad is a frame which is in the category of 250g and below. This project 
 **Process:** <br />
 The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1cYAspavME3v48QGeK7C_C9BaFqZSH__D/preview" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+<iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
