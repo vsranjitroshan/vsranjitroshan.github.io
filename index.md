@@ -24,11 +24,11 @@
 
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
-10.**Drone development for a national level robotics competition** [read more](#projectg) <br />
+10. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-11.**Bicopter controller circuit design** [read more](#projecth) <br />
+11. **Bicopter controller circuit design** [read more](#projecth) <br />
 
-12.**Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+12. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
 
 <a name="projectc"></a>
@@ -67,12 +67,16 @@ Two motor test rig to understand PID Tuning
 [Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
 
 **Overview:**<br>
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.
-**Design process**
-The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.<br>
+**Design process**<br>
+- The two motor test rig is used to tune the system by trial and error method.<br>
+- First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating.<br>
+- The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second.<br>
+- Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced.<br>
+- This way the below test rig is tuned for optimum self-balancing.<br>
 
 _PID Test Rig_
-<img src = "images/pid_test_rig.JPG">
+<img src = "images/pid_test_rig.JPG" border="5">
 
 <a name="projectl"></a>
 
