@@ -12,11 +12,11 @@
 
 3. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
 
-4.**Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
+4. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
 5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
 
-6.**Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+6. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
 7. **Python API to automate belt drive design** [read more](#projecta)
 
@@ -24,9 +24,9 @@
 
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
-10. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+10.**Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-11. **Bicopter controller circuit design** [read more](#projecth) <br />
+11.**Bicopter controller circuit design** [read more](#projecth) <br />
 
 12.**Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
