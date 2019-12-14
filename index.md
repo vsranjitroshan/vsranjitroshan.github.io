@@ -30,6 +30,9 @@
 
 12. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
+13. **Retractable arm induced dynamically stable quadrotors** [read more](#projectl) <br />
+
+
 
 <a name="projectc"></a>
 
@@ -197,6 +200,18 @@ Metrology is the study of measurements standards and techniques. This being a pa
 
 <iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
 
+<a name="projectl"></a>
+
+Retractable arm induced dynamically stable quadrotors
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Feb 2019_
+
+**Overview:** <br />
+To implement a drone with variable arm characteristics with the intention to increase the number of available controllable outputs a drones can have. <br />
+**Drone Development:** <br />
+As I was studying about the dynamics of drones, I understood that the yaw motion is the consequence of variation in the speed of the diagonal motors but I didn't understand what exactly induced it. <br />
+                  _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. 
+                  _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propellers drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm curve. This drag like the Back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone. Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
 
 <a name="projectg"></a>
 
