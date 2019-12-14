@@ -1,7 +1,7 @@
 ## Research Papers
-1. _Ranjit Roshan, Noufal and Vigneshwar, “Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking” Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
+1. _Ranjit Roshan, Noufal and Vigneshwar, **“Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking”** Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
    
-   Octocopters use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about how the motors      can be optimally placed and thrust vectoring can be used to stabilize and resume normal operation in case of motor failure or            propeller breakage. The full paper will soon be published in IEEE Xplore magazine. 
+   **Octocopters** use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about ,_how the motors      can be optimally placed and thrust vectoring can be used, to stabilize and resume normal operation in case of motor failure or            propeller breakag_._ The full paper will soon be published in IEEE Xplore magazine. 
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
@@ -38,9 +38,9 @@ Python API to automate belt drive design
 [Back to Project List](#projectlist) &nbsp;&nbsp; _Nov 2018_
 
 **Overview :**<br>
-The Project involves the creation of an application to automate the design process of a flat-belt drive system.<br>
+This Project involves, the creation of an application to automate the design process of a flat-belt drive system.<br>
 **Manual Process Disadvantages:**<br>
-The manual design calculation is a tiresome process involving many substitutions in pre-derived formulae and in case of design failure during stress testing, the design process has to be repeated again from the beginning. This is not only a tiresome process but also an inefficient one.<br>
+The manual design calculation is a tiresome process, involving many substitutions in pre-derived formulae. In case of design failure during stress testing, the design process has to be repeated again from the beginning. This is not only a tiresome process but also an inefficient one.<br>
 **The Automated Process**<br>
 - Thus with the advancement of faster computing and better user interfaces an application can be programmed or created to automate the above explained process.<br>
 - These programs can produce results with viable inputs in milli-seconds. <br>
@@ -64,7 +64,7 @@ In order to understand and tune the drone features like battery life, PID values
 **Features**<br>
 - The program is portable to any place just using some arduino pins and a USB-COM Port.<br>
 - The program saves the data in a time-stamped file with a meta-file which stores additional user data during the initial and final stages of recording.<br>
-- The data is stored in plain text documents as comma seperated files(.csv) which can used in data analysis tools like pandas and excel.<br>
+- The data is stored in plain text documents as comma seperated files(.csv), which can used in data analysis tools like pandas and excel.<br>
 
 [View repository on Github](https://github.com/vsranjitroshan/dataLogger_UsbSerial_python){:target="_blank"} <br />
 _API Interface:_
@@ -80,7 +80,7 @@ Damping characteristics visualisation using Excel
 [Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
 
 **Features**<br>
-Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics<br>
+Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics.<br>
 
 <img src = "images/damping_chart.JPG" border="5">
 
@@ -94,7 +94,9 @@ Vehicle flat ride curve for different configurations - Gross and half load
 This plot is used to analyze the ride frequency oscillations.<br>
 
 **Ride Frequency in Detail:**<br>
-The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass. The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo. The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
+- The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass.<br>
+- The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo.
+- The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
 
 <img src = "images/flat-ride.JPG" border="5">
 _Curb weight plot_
