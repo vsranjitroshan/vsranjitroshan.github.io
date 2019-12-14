@@ -268,7 +268,7 @@ Implementation of a PID controller using an Arduino to control a quadcopter.<br>
 ( I will post a detailed note on every step as soon as I complete the project)
 
 <iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1I7Ke4p8WtdWQZ2ZQXZSl6QCvFpKofY56/preview" width="640" height="480"></iframe>
 
-
-**EXTRAS**
+<h1>EXTRAS</h1>
 
