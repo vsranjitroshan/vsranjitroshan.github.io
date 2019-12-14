@@ -1,34 +1,35 @@
 ## Research Papers
 1. _Ranjit Roshan, Noufal and Vigneshwar, **“Resilience Optimization of Octocopter Drone using two stage thrusters and thrust vector           locking”** Proceedings of IEEE GCAT 2019 Banglore,India, Oct. 18-20, 2019._
    
-   **Octocopters** use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about ,_how the motors      can be optimally placed and thrust vectoring can be used, to stabilize and resume normal operation in case of motor failure or            propeller breakag_._ The full paper will soon be published in IEEE Xplore magazine. 
+   **Octocopters** use fault handling programs to stabilize and land safely in case of a motor failure. This paper is about ,_how the motors      can be optimally placed and thrust vectoring can be used, to stabilize and resume normal operation in case of motor failure or            propeller breakage._ The full paper will soon be published in IEEE Xplore magazine. 
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
 ## Project Index <a name="projectlist"></a>
-1. **Python API to automate belt drive design** [read more](#projecta)
+1. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
 
-2. **Data logging API for Drone test rig** [read more](#projectb)<br />
+2. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
 
-3. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
+3. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
 
-4. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
+4.**Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
 5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
 
-6. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
+6.**Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
-7. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+7. **Python API to automate belt drive design** [read more](#projecta)
 
-8. **Bicopter controller circuit design** [read more](#projecth) <br />
+8. **Data logging API for Drone test rig** [read more](#projectb)<br />
 
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
-10. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+10. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-11. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+11. **Bicopter controller circuit design** [read more](#projecth) <br />
 
-12. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
+12.**Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+
 
 <a name="projectc"></a>
 
