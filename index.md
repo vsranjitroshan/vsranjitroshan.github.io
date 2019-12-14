@@ -30,6 +30,106 @@
 
 12. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
+<a name="projectc"></a>
+
+Damping characteristics visualisation using Excel 
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
+
+**Features**<br>
+Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics.<br>
+
+<img src = "images/damping_chart.JPG" border="5">
+
+<a name="projectd"></a>
+
+Vehicle flat ride curve for different configurations - Gross and half load
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2017_
+
+**Overview:**
+This plot is used to analyze the ride frequency oscillations.<br>
+
+**Ride Frequency in Detail:**<br>
+- The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass.<br>
+- The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo.
+- The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
+
+<img src = "images/flat-ride.JPG" border="5">
+_Curb weight plot_
+<img src = "images/Curb-Plot.PNG" border="5">
+
+<a name="projectf"></a>
+
+Two motor test rig to understand PID Tuning
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
+
+**Overview:**<br>
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.
+**Design process**
+The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
+
+_PID Test Rig_
+<img src = "images/pid_test_rig.JPG">
+
+<a name="projectl"></a>
+
+Micro quadcopter frame design and fabrication
+=============================================================================
+[Back to Project List](#projectlist) _Nov 2017_
+ 
+**Overview:** <br />
+A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
+**Process:** <br />
+The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
+
+[View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
+
+<iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
+
+<a name="projecte"></a>
+
+H-I-X Quadcopter frame design fabrication and flight
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2017_
+
+**Overview:**<br>
+The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. <br>
+**Features:**<br>
+- The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together.
+- The aluminum frame is welded together with the legs at a angle to the yaw axis.
+- This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity.
+- The outer cover is 3D printed using ABS plastic.
+- APM 2.8 is used to control the drone.
+
+<img src = "images/sq.jpg" float="center" border="5">
+<iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
+
+<a name="projectj"></a>
+
+Robotic Arm design and circuit fabrication
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2018_
+
+**Overview:**<br>
+Robotic arm are of various types and this is an articualated type which mimic's a human arm.
+**The Design Process:**<br>
+- I went to a workshop on 3D printing and found a service provider near me.
+- For the kinematics of machinery project, I modelled the robotic arm and 3D printed it.
+- The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's).
+- I tried their service and got the board within a week time. I solered the components and tested the circuit.
+- The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
+
+**Tips:**<br>  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.<br>
+       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
+       * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
+
+<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1GyhMwMNv7ejOTdoGNr2ph8AjSt81jR05/preview" width="440" height="280"></iframe>
+
 
 <a name="projecta"></a>
 
@@ -73,66 +173,25 @@ _Data and Meta files:_
 <img src = "images/dl_raw_data.JPG" border="5">
 <img src = "images/dl_data_files.JPG" border="5">
 
-<a name="projectc"></a>
+<a name="projecti"></a>
 
-Damping characteristics visualisation using Excel 
+Optical low cost tachometer circuit design
 =============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
-
-**Features**<br>
-Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics.<br>
-
-<img src = "images/damping_chart.JPG" border="5">
-
-<a name="projectd"></a>
-
-Vehicle flat ride curve for different configurations - Gross and half load
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2017_
-
-**Overview:**
-This plot is used to analyze the ride frequency oscillations.<br>
-
-**Ride Frequency in Detail:**<br>
-- The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass.<br>
-- The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo.
-- The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
-
-<img src = "images/flat-ride.JPG" border="5">
-_Curb weight plot_
-<img src = "images/Curb-Plot.PNG" border="5">
-
-<a name="projecte"></a>
-
-H-I-X Quadcopter frame design fabrication and flight
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2017_
+[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2019_
 
 **Overview:**<br>
-The common basic geometries of quadcopter frames are H, I and X type each with its own advantage during flight. This project is to design a frame by combining all the geometries. <br>
-**Features:**<br>
-- The outer arms are angled with respect to the pitch and roll axis, while a beam like structure holds them together.
-- The aluminum frame is welded together with the legs at a angle to the yaw axis.
-- This is a research experiment to understand the moment of inertia and how trade-off's are made to attain stable flight and structural integrity.
-- The outer cover is 3D printed using ABS plastic.
-- APM 2.8 is used to control the drone.
+Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project of designing a decent tachometer based on available tools.<br>
+**The Design Process:**<br>
+- After going through various aspects to measure RPM (Revolutions per minute) like measuring using encoder, hall effect etcetera optical obstruction seemed like the way to go.<br>
+- The arduino has an interrupt function which is called whenver a change in voltage is observed in the analog pin with refrence to another analog pin.<br>
+- The interrupt handler has a counter which gets incremented every time it is called and a refresh rate of 250 hz (i.e, interrupt being called 250 timed per second) can be achieved quite effortlessly.<br>
+- A laser is pointed on two LDR's (Light dependent diodes) which are monitored for interrupts by the controller.<br>
+- This is a non-contact type tachometer but the only requirement is that the rotating object must have a slim protrusion which can act as a obstruction to the laser source.<br>
+- The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano.<br>
+- The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
-<img src = "images/sq.jpg" float="center" border="5">
-<iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
 
-<a name="projectf"></a>
-
-Two motor test rig to understand PID Tuning
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
-
-**Overview:**<br>
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.
-**Design process**
-The two motor test rig is used to tune the system by trial and error method. First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating. The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second. Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced. This way the below test rig is tuned for optimum self-balancing.
-
-_PID Test Rig_
-<img src = "images/pid_test_rig.JPG">
 
 <a name="projectg"></a>
 
@@ -172,48 +231,6 @@ Hence I designed this circuit with an external relay circuit which once activate
 
 <iframe src="https://drive.google.com/file/d/1cZzxsjWjvbPHn8EWmUKaTTPfMXSHzwox/preview" width="440" height="280"></iframe>
 
-<a name="projecti"></a>
-
-Optical low cost tachometer circuit design
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2019_
-
-**Overview:**<br>
-Metrology is the study of measurements standards and techniques. This being a part of my curriculum, I took the project of designing a decent tachometer based on available tools.<br>
-**The Design Process:**<br>
-- After going through various aspects to measure RPM (Revolutions per minute) like measuring using encoder, hall effect etcetera optical obstruction seemed like the way to go.<br>
-- The arduino has an interrupt function which is called whenver a change in voltage is observed in the analog pin with refrence to another analog pin.<br>
-- The interrupt handler has a counter which gets incremented every time it is called and a refresh rate of 250 hz (i.e, interrupt being called 250 timed per second) can be achieved quite effortlessly.<br>
-- A laser is pointed on two LDR's (Light dependent diodes) which are monitored for interrupts by the controller.<br>
-- This is a non-contact type tachometer but the only requirement is that the rotating object must have a slim protrusion which can act as a obstruction to the laser source.<br>
-- The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano.<br>
-- The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
-
-<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
-
-<a name="projectj"></a>
-
-Robotic Arm design and circuit fabrication
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2018_
-
-**Overview:**<br>
-Robotic arm are of various types and this is an articualated type which mimic's a human arm.
-**The Design Process:**<br>
-- I went to a workshop on 3D printing and found a service provider near me.
-- For the kinematics of machinery project, I modelled the robotic arm and 3D printed it.
-- The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's).
-- I tried their service and got the board within a week time. I solered the components and tested the circuit.
-- The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
-
-**Tips:**<br>  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.<br>
-       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
-       * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
-
-<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="340" height="180"></iframe>
-<iframe src="https://drive.google.com/file/d/1GyhMwMNv7ejOTdoGNr2ph8AjSt81jR05/preview" width="440" height="280"></iframe>
 
 <a name="projectk"></a>
 
@@ -232,20 +249,6 @@ Implementation of a PID controller using an Arduino to control a quadcopter
 
 <iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
 
-<a name="projectl"></a>
-
-Micro quadcopter frame design and fabrication
-=============================================================================
-[Back to Project List](#projectlist) _Nov 2017_
- 
-**Overview:** <br />
-A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
-**Process:** <br />
-The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
-
-[View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
-
-<iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
 
 **EXTRAS**
 
