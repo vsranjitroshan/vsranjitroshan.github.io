@@ -244,7 +244,7 @@ Quadcopter control system programming using Arduino
 [Back to Project List](#projectlist) _Dec 2019_
 
 **Overview:** <br />
-Implementation of a PID controller using an Arduino to control a quadcopter
+Implementation of a PID controller using an Arduino to control a quadcopter.<br>
 **Process:** <br />
  - In order to establish a closed loop controller a sensor which can detect the system changes is required. 
  - The MPU6050 6 axis Gyro and accelerometer sensor provides the data to stabilize the system. 
