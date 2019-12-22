@@ -283,7 +283,7 @@ IMU Visualization using VPython
 =============================================================================
 [Back to Project List](#projectlist) _Dec 2019_
 
-[Github](https://github.com/vsranjitroshan/IMU_visualization_using_Python){:target="_blank"} 
+[Github](https://github.com/vsranjitroshan/IMU_visualization_using_Python){:target="_blank"}  <br />
 **Overview** <br />
 Real time visualization of a IMU using VPython and Arduino
 **Implementation** <br />
