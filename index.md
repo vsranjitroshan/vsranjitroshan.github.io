@@ -24,13 +24,15 @@
 
 9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
 
-10. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+10. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
 
-11. **Bicopter controller circuit design** [read more](#projecth) <br />
+11. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-12. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+12. **Bicopter controller circuit design** [read more](#projecth) <br />
 
-13. **Retractable arm induced dynamically stable quadrotors** [read more](#projectl) <br />
+13. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+
+14. **IMU Visualization using VPython** [read more](#projectn) <br />
 
 
 
@@ -200,7 +202,7 @@ Metrology is the study of measurements standards and techniques. This being a pa
 
 <iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
 
-<a name="projectl"></a>
+<a name="projectm"></a>
 
 Retractable arm induced dynamically stable quadrotors
 =============================================================================
@@ -210,8 +212,11 @@ Retractable arm induced dynamically stable quadrotors
 To implement a drone with variable arm characteristics with the intention to increase the number of available controllable outputs a drones can have. <br />
 **Drone Development:** <br />
 As I was studying about the dynamics of drones, I understood that the yaw motion is the consequence of variation in the speed of the diagonal motors but I didn't understand what exactly induced it. <br />
-                  _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. 
-                  _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propellers drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm curve. This drag like the Back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone. Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
+                  _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. <br />
+                  _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propellers drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm curve. This drag like the Back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone.<br />
+                  Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
+
+<iframe src="https://drive.google.com/file/d/1dEdEg9m9lDrS9L9X1MfINeurol68L-_d/preview" width="440" height="280"></iframe>
 
 <a name="projectg"></a>
 
@@ -268,7 +273,24 @@ Implementation of a PID controller using an Arduino to control a quadcopter.<br>
 ( I will post a detailed note on every step as soon as I complete the project)
 
 <iframe src="https://drive.google.com/file/d/1IXOERijieDnMChUZqTCqTlRZEKkVmyKC/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1I7Ke4p8WtdWQZ2ZQXZSl6QCvFpKofY56/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1I7Ke4p8WtdWQZ2ZQXZSl6QCvFpKofY56/preview" width="440" height="280"></iframe>
 
 <h1>EXTRAS</h1>
 
+<a name="projectn"></a>
+
+IMU Visualization using VPython
+=============================================================================
+[Back to Project List](#projectlist) _Dec 2019_
+
+[Github](https://github.com/vsranjitroshan/IMU_visualization_using_Python){:target="_blank"} 
+**Overview** <br />
+Real time visualization of a IMU using VPython and Arduino
+**Implementation** <br />
+ - In order to make sense of the data from a sensor we need a visual aid. VPython provides the tool the create models and 
+   make rotations.
+ - The raw data is obtained from the sensor and is processed using complimentary filters to obtain angular rates and angles.
+ - The data is sent via a serial bus and the sensor model is rotated according to the sensor readings in real time.
+ (The visualization is under constuction and below is a sample of the tool)
+ 
+ <iframe src="https://drive.google.com/file/d/1IQTik2kk5DzR6sD6E-Kmy1Qb9wJhbvWb/preview" width="440" height="280"></iframe>
