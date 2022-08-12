@@ -6,97 +6,66 @@
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
 ## Project Index <a name="projectlist"></a>
-1. **Damping characteristics visualisation using Excel** [read more](#projectc) <br />
 
-2. **Vehicle flat ride curve for different configurations - Gross and half load** [read more](#projectd) <br />
+1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
 
-3. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
+2. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-4. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
+3. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
 
-5. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
+4. **Python API to automate belt drive design** [read more](#projecta)<br />
 
-6. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+5. **Data logging API for Drone test rig** [read more](#projectb)<br />
 
-7. **Python API to automate belt drive design** [read more](#projecta)
+6. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
 
-8. **Data logging API for Drone test rig** [read more](#projectb)<br />
+7. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
-9. **Optical low cost tachometer circuit design** [read more](#projecti) <br />
+8. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
-10. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
+9. **Bicopter controller circuit design** [read more](#projecth) <br />
 
-11. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+10. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
-12. **Bicopter controller circuit design** [read more](#projecth) <br />
+11. **IMU Visualization using VPython** [read more](#projectn) <br />
 
-13. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+<a name="projectm"></a>
 
-14. **IMU Visualization using VPython** [read more](#projectn) <br />
-
-
-
-<a name="projectc"></a>
-
-Damping characteristics visualisation using Excel 
+Retractable arm induced dynamically stable quadrotors
 =============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Feb 2019_
 
-**Features**<br>
-Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics.<br>
+**Overview:** <br />
+To implement a drone with variable arm characteristics with the intention to increase the number of available controllable outputs a drones can have. <br />
+**Drone Development:** <br />
+As I was studying about the dynamics of drones, I understood that the yaw motion is the consequence of variation in the speed of the diagonal motors but I didn't understand what exactly induced it. <br />
+                  _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. <br />
+                  _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propeller drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm plot. This drag like the back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone.<br />
+                  Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
 
-<img src = "images/damping_chart.JPG" border="5">
+<iframe src="https://drive.google.com/file/d/1dEdEg9m9lDrS9L9X1MfINeurol68L-_d/preview" width="440" height="280"></iframe>
 
-<a name="projectd"></a>
+<a name="projectg"></a>
 
-Vehicle flat ride curve for different configurations - Gross and half load
+Drone development for a national level robotics competition
 =============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2017_
-
-**Overview:**
-This plot is used to analyze the ride frequency oscillations.<br>
-
-**Ride Frequency in Detail:**<br>
-- The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass.<br>
-- The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo.
-- The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
-
-<img src = "images/flat-ride.JPG" border="5">
-_Curb weight plot_
-<img src = "images/Curb-Plot.PNG" border="5">
-
-<a name="projectf"></a>
-
-Two motor test rig to understand PID Tuning
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
+[Back to Project List](#projectlist) &nbsp;&nbsp; _June 2019_
 
 **Overview:**<br>
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.<br>
-**Design process**<br>
-- The two motor test rig is used to tune the system by trial and error method.<br>
-- First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating.<br>
-- The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second.<br>
-- Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced.<br>
-- This way the below test rig is tuned for optimum self-balancing.<br>
+The challenge was to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
+**Drone Development:**<br>
+- We planned to design the frame using aluminium with some weight reduction plans.
+- Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal.
+- We created a retractable landing gear system completely by ourselves from scratch and wrote a ground station program to control the retracting action from it.
+- We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity.
+- The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
 
-_PID Test Rig_
-<img src = "images/pid_test_rig.JPG" border="5">
-
-<a name="projectl"></a>
-
-Micro quadcopter frame design and fabrication
-=============================================================================
-[Back to Project List](#projectlist) _Nov 2017_
- 
-**Overview:** <br />
-A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
-**Process:** <br />
-The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
-
-[View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
-
-<iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/19g-Re-91fd9U9xsiCjbfMogw3VF6hVkX/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1WmLQ0-KMnjIk4gx-XqOTp5qRfpA_5LjI/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/11THzFgK_0sxOxADpVy2Rr1F-UhByDoRU/preview" width="440" height="280"></iframe>
 
 <a name="projecte"></a>
 
@@ -115,31 +84,6 @@ The common basic geometries of quadcopter frames are H, I and X type each with i
 
 <img src = "images/sq.jpg" float="center" border="5">
 <iframe src="https://drive.google.com/file/d/16gVv8Nz-2nTw7Rf4l84OMdho4PCZcGtm/preview" width="440" height="280"></iframe>
-
-<a name="projectj"></a>
-
-Robotic Arm design and circuit fabrication
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2018_
-
-**Overview:**<br>
-Robotic arm are of various types and this is an articualated type which mimic's a human arm.
-**The Design Process:**<br>
-- I went to a workshop on 3D printing and found a service provider near me.
-- For the kinematics of machinery project, I modelled the robotic arm and 3D printed it.
-- The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's).
-- I tried their service and got the board within a week time. I solered the components and tested the circuit.
-- The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
-
-**Tips:**<br>  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.<br>
-       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
-       * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
-
-<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="340" height="180"></iframe>
-<iframe src="https://drive.google.com/file/d/1GyhMwMNv7ejOTdoGNr2ph8AjSt81jR05/preview" width="440" height="280"></iframe>
-
 
 <a name="projecta"></a>
 
@@ -183,9 +127,96 @@ _Data and Meta files:_
 <img src = "images/dl_raw_data.JPG" border="5">
 <img src = "images/dl_data_files.JPG" border="5">
 
-<a name="projecti"></a>
+<!-- 
+<a name="projectc"></a>
 
-Optical low cost tachometer circuit design
+Damping characteristics visualisation using Excel 
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _May 2017_
+
+**Features**<br>
+Based on the spring and damper hard point data of a vehicle, the compression and rebound curves are plotted. The plot gives compression and rebound force for various velocities which are tuned by adjusting the damping coefficient for better ride characteristics.<br>
+
+<img src = "images/damping_chart.JPG" border="5"> -->
+<!-- 
+<a name="projectd"></a>
+
+Vehicle flat ride curve for different configurations - Gross and half load
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2017_
+
+**Overview:**
+This plot is used to analyze the ride frequency oscillations.<br>
+
+**Ride Frequency in Detail:**<br>
+- The ride frequency is a fucntion of the front and rear spring attributes, sprung and unsprung mass.<br>
+- The curve behaves differently for different loading conditions such as Curb-weight, which is only the weight of the car without passengers and the gross weight which includes passenger and cargo.
+- The ride frequency must be between 1~2 hz and a lower or higher value will cause rider discomfort and nausea.
+
+<img src = "images/flat-ride.JPG" border="5">
+_Curb weight plot_
+<img src = "images/Curb-Plot.PNG" border="5"> -->
+
+<a name="projectf"></a>
+
+Two motor test rig to understand PID Tuning
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
+
+**Overview:**<br>
+PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.<br>
+**Design process**<br>
+- The two motor test rig is used to tune the system by trial and error method.<br>
+- First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating.<br>
+- The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second.<br>
+- Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced.<br>
+- This way the below test rig is tuned for optimum self-balancing.<br>
+
+_PID Test Rig_
+<img src = "images/pid_test_rig.JPG" border="5">
+
+<a name="projectl"></a>
+
+Micro quadcopter frame design and fabrication
+=============================================================================
+[Back to Project List](#projectlist) _Nov 2017_
+ 
+**Overview:** <br />
+A microquad is a frame which is in the category of 250g and below. This project is aimed at designing a 3D printable frame <br />
+**Process:** <br />
+The frame is modelled considering that the thrust is provided by 8mm coreless motor and 60mm propellers. A IRF540 voltage controlled current mosfet is used to vary the speed of the motors. 
+
+[View Model](https://grabcad.com/library/micro-quadcopter-frame-1){:target="_blank"}
+
+<iframe src="https://drive.google.com/file/d/1svaWj1un7O_2lFv6vY5_RwPR7c6ILm83/preview" width="440" height="280"></iframe>
+
+<a name="projectj"></a>
+
+Robotic Arm design and circuit fabrication
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _April 2018_
+
+**Overview:**<br>
+Robotic arm are of various types and this is an articualated type which mimic's a human arm.
+**The Design Process:**<br>
+- I went to a workshop on 3D printing and found a service provider near me.
+- For the kinematics of machinery project, I modelled the robotic arm and 3D printed it.
+- The circuit was designed using EasyEDA and JLCPCB provides a very low rate on circuit fabrication (2$ for 10 PCB's).
+- I tried their service and got the board within a week time. I solered the components and tested the circuit.
+- The design was not good and had a lot of assembly issues since I didn't account for various 3D printing parameters. I thought not to post this project, but convinced myself that my failures will surely help someone else to design a successful project. 
+
+**Tips:**<br>  * Account for 3D printing parameters like wall thickness and warping especially for ABS materials. Design curves considering the          extruder diameter to get better shape accuracy and think about the axis of printing for better strength.<br>
+       * During any mechanical design, especially cases where movements are default, consider dynamic forces on the body.<br> 
+       * Test the actuators with loads prior to designing to get better focus on what is achievable in reality.
+
+<iframe src="https://drive.google.com/file/d/129rR5ZFK4MuVYPfQjMhfjkrr8us1eEwG/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1Fl5sxpJg_JtpvMeCFXc11l2F_TS7OqFk/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/1AzP2k_zsIMuxpWfUex_wcJrfOpzFXNBK/preview" width="340" height="180"></iframe>
+<iframe src="https://drive.google.com/file/d/1GyhMwMNv7ejOTdoGNr2ph8AjSt81jR05/preview" width="440" height="280"></iframe>
+
+<!-- <a name="projecti"></a>
+
+ Optical low cost tachometer circuit design
 =============================================================================
 [Back to Project List](#projectlist) &nbsp;&nbsp; _April 2019_
 
@@ -200,45 +231,7 @@ Metrology is the study of measurements standards and techniques. This being a pa
 - The circuit diagram shows the connections for the diodes and the wires to be connected to the arduino nano.<br>
 - The LDR can vary its output based on ambient light changes too, hence a potentiometer is integrated to vary the refrence analog voltage. The system must be set and must be calibrated before actual measurement. 
 
-<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe>
-
-<a name="projectm"></a>
-
-Retractable arm induced dynamically stable quadrotors
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Feb 2019_
-
-**Overview:** <br />
-To implement a drone with variable arm characteristics with the intention to increase the number of available controllable outputs a drones can have. <br />
-**Drone Development:** <br />
-As I was studying about the dynamics of drones, I understood that the yaw motion is the consequence of variation in the speed of the diagonal motors but I didn't understand what exactly induced it. <br />
-                  _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. <br />
-                  _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propeller drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm plot. This drag like the back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone.<br />
-                  Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
-
-<iframe src="https://drive.google.com/file/d/1dEdEg9m9lDrS9L9X1MfINeurol68L-_d/preview" width="440" height="280"></iframe>
-
-<a name="projectg"></a>
-
-Drone development for a national level robotics competition
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _June 2019_
-
-**Overview:**<br>
-The challenge was to design a frame based on given constraints such as max gross weight of 2 kg and max possible dimensions as 75x75x75 cm.
-**Drone Development:**<br>
-- We planned to design the frame using aluminium with some weight reduction plans.
-- Every component of the drone was modelled, assembled and the flight was animated in blender to get a visualization of our end goal.
-- We created a retractable landing gear system completely by ourselves from scratch and wrote a ground station program to control the retracting action from it.
-- We chose NRF for communication between the base station and the drone, but due to high signal interference (SNR) we had to switch to static legs to reduce uncertainity.
-- The APM 2.8 provided the primary flight control system, while we coded an auxillary control system for retractable landing gears and battery monitoring. 
-
-<iframe src="https://drive.google.com/file/d/19g-Re-91fd9U9xsiCjbfMogw3VF6hVkX/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1ijBxgE2g2eeYl49UX6tmJkN4vhrk08eI/preview" width="340" height="180"></iframe>
-<iframe src="https://drive.google.com/file/d/1_sE8QI4CoPbFCLRbtQGFpamv8rDjET-l/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/13qw0g4WzbTRAgL1LZvhbk4GM85R-7lYN/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/1WmLQ0-KMnjIk4gx-XqOTp5qRfpA_5LjI/preview" width="440" height="280"></iframe>
-<iframe src="https://drive.google.com/file/d/11THzFgK_0sxOxADpVy2Rr1F-UhByDoRU/preview" width="440" height="280"></iframe>
+<iframe src="https://drive.google.com/file/d/17cLcyLHuudeTYt8weOdfksoMZv76OEw5/preview" width="440" height="280"></iframe> -->
 
 <a name="projecth"></a>
 
