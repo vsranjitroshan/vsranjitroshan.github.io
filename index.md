@@ -6,9 +6,11 @@
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
 ## Awards
-1. **Student Project Grant | International Academy RWTH Aachen**
+1. **Student Project Grant** - **International Academy RWTH Aachen**
 
-   Received project grant for development of a drone image based solar panel dust estimation system. This project was a continuation of a      previous project involving the development of deep neural network model for the same. Refer here for more info (). As a part of this        project, initially drone image data was collected at 2 solar power generation units in Tamil Nadu (Crescent Institute of Science and        Technology and at a 15 MW solar power plant in Thenkasi.
+   Received project grant for development of a drone image based solar panel dust estimation system. This project was a continuation of a      previous project involving the development of deep neural network model for the same. Refer here for more info (). <br />
+
+   As a part of this project, initially drone image data was collected at 2 solar power generation units in Tamil Nadu (Crescent               Institute of Science and Technology and at a 15 MW solar power plant in Thenkasi. <br />
 
    <iframe src="https://drive.google.com/file/d/1frfdqyGKVegcxbKVoNr662YbZtls15oP/preview" width="440" height="280"></iframe>
    <iframe src="https://drive.google.com/file/d/1edMQ4fH0RSB952jtXlrJTYzpmJhN-_Sa/preview" width="440" height="280"></iframe>
@@ -16,7 +18,17 @@
    
    Further processing is to be made to make the dataset ready for re-training the machine learning model.
 
+2. **ESE Hackathon** - **Runner up**
+
+   Achieved runner up position for the development of a railway level crossing system using Python. The task was to develop code in Python     and test it under multiple test conditions. <br />
+
+   <iframe src="https://drive.google.com/file/d/1Fvt17IjMez1ToctjG8Iaf7-ghtIEpQoT/preview" width="440" height="280"></iframe>
+   
+   Data was collected from multiple magentic contact sensors on the track and level crossing gates gates and the algorithm was developed to    understand the train's heading direction and indications were made using LED's to the train to stop or proceed. <br />
+
 ## Project Index <a name="projectlist"></a>
+
+1. **Research project - Development of modular sensor fusion platform for environment perception** [read more](#project1) <br />
 
 1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
 
@@ -28,8 +40,6 @@
 
 5. **Data logging API for Drone test rig** [read more](#projectb)<br />
 
-6. **Two motor test rig to understand PID Tuning** [read more](#projectf) <br />
-
 7. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
 8. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
@@ -39,6 +49,22 @@
 10. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
 
 11. **IMU Visualization using VPython** [read more](#projectn) <br />
+
+<a name="project1"></a>
+
+Research project - Development of modular sensor fusion platform for environment perception
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_
+In the development of autonomous driving functions, the perception of the environment is one of the elementary and crucial building blocks. This perception part of the driving stack must be modular and decoupled in order to enable easy transmission to other vehicle functions and possibly to other vehicles to enable mutually coordinated navigation. Present environment perception systems are highly vehicle specific and are expensive. For research purposes more generic and cost minimal solutions are needed which should include different types of environment perception sensors such as camera, LIDAR etc. Apart from hardware, flexible software framework is required to run the various
+available perception algorithms such as object detection, semantic and instance segmentation. The software framework should be agile and capable of running on the variety of edge computing devices available in real time. </br>
+
+This project work involves the creation of such an optimized hardware and software system for running environment perception on the the edge. Simple, reliable and cost effective camera and LIDAR system will be used to scan the environment. The software framework will be built using C++ and compiled using the CMake build system making the entire framework platform independent and enabling cross compilation possible on different edge computing architectures. Nvidia Xavier platform will be used as the edge computing unit for running the various environment perception algorithms. The environment perception algorithms are pre-trained deep neural network architectures designed for specific tasks such as obstacle detection, traffic signal detection, road lane detection,. etc . </br>
+
+<iframe src="https://drive.google.com/file/d/1lDPHFf2NvayQ9kT3U_9i7jfj6cgJy3hm/preview" width="440" height="280"></iframe>
+
+These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. </br>
+
+The end output of the software programming part will be a library which can be included and used to implement various types of environment perception models in an optimized fashion on the edge. Thus this environment perception setup can be attached to any mobile robotic system thereby making safe and autonomous navigation and guidance possible. </br>
 
 <a name="projectm"></a>
 
@@ -167,24 +193,6 @@ This plot is used to analyze the ride frequency oscillations.<br>
 <img src = "images/flat-ride.JPG" border="5">
 _Curb weight plot_
 <img src = "images/Curb-Plot.PNG" border="5"> -->
-
-<a name="projectf"></a>
-
-Two motor test rig to understand PID Tuning
-=============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Aug 2017_
-
-**Overview:**<br>
-PID (Proportional, Integral and Derivative) controller is the most common control system used in Drones with exceptions such as PI and PD which are derivates of PID. Thus a test rig is fabricated to understand the PID tuning of a drone by trial and error method in real time.<br>
-**Design process**<br>
-- The two motor test rig is used to tune the system by trial and error method.<br>
-- First the P Value is tuned until peak oscillation (high vibration) which means the system is over-compensating.<br>
-- The P is reduced to half and then the I value is slowly increased in small fractions such as 0.01 since it accumulates at a rate of 250 times per second.<br>
-- Then the D value is increased which retards any acceleration. very high D value is observed is the system does not allow to make any movements and at that point the D value is reduced.<br>
-- This way the below test rig is tuned for optimum self-balancing.<br>
-
-_PID Test Rig_
-<img src = "images/pid_test_rig.JPG" border="5">
 
 <a name="projectl"></a>
 
