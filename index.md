@@ -32,6 +32,8 @@
 
 1. **Research project - Development of modular sensor fusion platform for environment perception** [read more](#project1) <br />
 
+2. **Research project - Processing of Dynamic Object Information in MPC Planner** [read more](#project2) <br />
+
 ### Bachelors in Mechanical Engineering
 
 1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
@@ -72,6 +74,18 @@ This project work involves the creation of such an optimized hardware and softwa
 These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. <br />
 
 The end output of the software programming part will be a library which can be included and used to implement various types of environment perception models in an optimized fashion on the edge. Thus this environment perception setup can be attached to any mobile robotic system thereby making safe and autonomous navigation and guidance possible. <br />
+
+<a name="project2"></a>
+
+Research project - Processing of Dynamic Object Information in MPC Planner 
+=============================================================================
+[Back to Project List](#projectlist) &nbsp;&nbsp; _July 2022_
+
+Researched on existing methods such as Time to collision, parallex angle, velocity and acceleraiton based methods for obstable information processing in Model Predictive Controller inside an Autonomous vehicle and experimented and compared them for obstacle avoidance by programming the methods as cost functions for the planner.
+
+<iframe src="https://drive.google.com/file/d/13yMROAiChIwDSyZCbVXxDNUSa9eLN3Im/preview" width="440" height="280"></iframe>
+
+Worked extensively with the ct C++ control systems library and ROS2 for the implmentation of the cost functions.
 
 <a name="projectm"></a>
 
