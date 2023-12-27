@@ -56,14 +56,14 @@ Research project - Development of modular sensor fusion platform for environment
 =============================================================================
 [Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_
 
-**Abstract**
+**Abstract** <br />
 In the development of autonomous driving functions, the perception of the environment is one of the elementary and crucial building blocks. This perception part of the driving stack must be modular and decoupled in order to enable easy transmission to other vehicle functions and possibly to other vehicles to enable mutually coordinated navigation. Present environment perception systems are highly vehicle specific and are expensive. For research purposes more generic and cost minimal solutions are needed which should include different types of environment perception sensors such as camera, LIDAR etc. Apart from hardware, flexible software framework is required to run the various
 available perception algorithms such as object detection, semantic and instance segmentation. The software framework should be agile and capable of running on the variety of edge computing devices available in real time. <br />
 
 This project work involves the creation of such an optimized hardware and software system for running environment perception on the the edge. Simple, reliable and cost effective camera and LIDAR system will be used to scan the environment. The software framework will be built using C++ and compiled using the CMake build system making the entire framework platform independent and enabling cross compilation possible on different edge computing architectures. Nvidia Xavier platform will be used as the edge computing unit for running the various environment perception algorithms. The environment perception algorithms are pre-trained deep neural network architectures designed for specific tasks such as obstacle detection, traffic signal detection, road lane detection,. etc . <br />
 
-<iframe src="https://drive.google.com/file/d/1lDPHFf2NvayQ9kT3U_9i7jfj6cgJy3hm/preview" width="440" height="280"></iframe>
-_The image belongs to the research project done at IRT RWTH Aachen_ <br />
+<iframe src="https://drive.google.com/file/d/1lDPHFf2NvayQ9kT3U_9i7jfj6cgJy3hm/preview" width="440" height="280"></iframe> <br />
+(The image belongs to the research project done at IRT RWTH Aachen) <br />
 
 These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. <br />
 
@@ -79,9 +79,12 @@ Retractable arm induced dynamically stable quadrotors
 To implement a drone with variable arm characteristics with the intention to increase the number of available controllable outputs a drones can have. <br />
 **Drone Development:** <br />
 As I was studying about the dynamics of drones, I understood that the yaw motion is the consequence of variation in the speed of the diagonal motors but I didn't understand what exactly induced it. <br />
+
                   _Gyroscopic approach_: My first approach was with the gyroscopic effect. Gyroscopic principles state that "when the axis of a rotating body is tilted along another perpendicular axis, then there is a resultant twist about the axis perpendicular to the plane of the other two axis". I removed the propellers and with the rotors spinning, I varied the diagonal motors and felt a twist along the yaw  axis, but the magnitute seemed too feebile to produced when hovering. <br />
+                  
                   _Drag approach_: Then I took a long journey across the internet and library to find a solution. I narrowed down to the effect of propeller drag and Eureka! I found it. As the propellers rotate, there is a production of workable thrust only when the thrust line crosses the drag point of a thrust-drag-rpm plot. This drag like the back-emf is present all the time and as the propeller spins, there is a production of torque about the center of rotation with respect to the center of the drone.<br />
-                  Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster.
+                  
+                  Assume that the propeller is spinning in an arm of the drone and the propeller at this instantaneous point of time is aligned with the drone arm (paraller to it). The drag exists on both the prop sections (here we are assuming a two bladed propeller) and since one section is present at a longer distance from the center of the drone the torque is more (Torque = force x perpendicular distance). When the motor spin clockwise the drag is counter-clockwise and this causes the drone to yaw CCW (counterclockwise) when the CW motors are spun faster. <br />
 
 <iframe src="https://drive.google.com/file/d/1dEdEg9m9lDrS9L9X1MfINeurol68L-_d/preview" width="440" height="280"></iframe>
 
