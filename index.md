@@ -30,15 +30,15 @@
 
 1. **Research project - Development of modular sensor fusion platform for environment perception** [read more](#project1) <br />
 
-1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
+2. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
 
-2. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+3. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-3. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
+4. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
 
-4. **Python API to automate belt drive design** [read more](#projecta)<br />
+5. **Python API to automate belt drive design** [read more](#projecta)<br />
 
-5. **Data logging API for Drone test rig** [read more](#projectb)<br />
+6. **Data logging API for Drone test rig** [read more](#projectb)<br />
 
 7. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
@@ -54,17 +54,18 @@
 
 Research project - Development of modular sensor fusion platform for environment perception
 =============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_ <br />
 In the development of autonomous driving functions, the perception of the environment is one of the elementary and crucial building blocks. This perception part of the driving stack must be modular and decoupled in order to enable easy transmission to other vehicle functions and possibly to other vehicles to enable mutually coordinated navigation. Present environment perception systems are highly vehicle specific and are expensive. For research purposes more generic and cost minimal solutions are needed which should include different types of environment perception sensors such as camera, LIDAR etc. Apart from hardware, flexible software framework is required to run the various
-available perception algorithms such as object detection, semantic and instance segmentation. The software framework should be agile and capable of running on the variety of edge computing devices available in real time. </br>
+available perception algorithms such as object detection, semantic and instance segmentation. The software framework should be agile and capable of running on the variety of edge computing devices available in real time. <br />
 
-This project work involves the creation of such an optimized hardware and software system for running environment perception on the the edge. Simple, reliable and cost effective camera and LIDAR system will be used to scan the environment. The software framework will be built using C++ and compiled using the CMake build system making the entire framework platform independent and enabling cross compilation possible on different edge computing architectures. Nvidia Xavier platform will be used as the edge computing unit for running the various environment perception algorithms. The environment perception algorithms are pre-trained deep neural network architectures designed for specific tasks such as obstacle detection, traffic signal detection, road lane detection,. etc . </br>
+This project work involves the creation of such an optimized hardware and software system for running environment perception on the the edge. Simple, reliable and cost effective camera and LIDAR system will be used to scan the environment. The software framework will be built using C++ and compiled using the CMake build system making the entire framework platform independent and enabling cross compilation possible on different edge computing architectures. Nvidia Xavier platform will be used as the edge computing unit for running the various environment perception algorithms. The environment perception algorithms are pre-trained deep neural network architectures designed for specific tasks such as obstacle detection, traffic signal detection, road lane detection,. etc . <br />
 
 <iframe src="https://drive.google.com/file/d/1lDPHFf2NvayQ9kT3U_9i7jfj6cgJy3hm/preview" width="440" height="280"></iframe>
+*The image belongs to the research project done at IRT RWTH Aachen* <br />
 
-These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. </br>
+These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. <br />
 
-The end output of the software programming part will be a library which can be included and used to implement various types of environment perception models in an optimized fashion on the edge. Thus this environment perception setup can be attached to any mobile robotic system thereby making safe and autonomous navigation and guidance possible. </br>
+The end output of the software programming part will be a library which can be included and used to implement various types of environment perception models in an optimized fashion on the edge. Thus this environment perception setup can be attached to any mobile robotic system thereby making safe and autonomous navigation and guidance possible. <br />
 
 <a name="projectm"></a>
 
