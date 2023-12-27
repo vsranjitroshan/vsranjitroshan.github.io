@@ -5,6 +5,17 @@
 
    <iframe src="https://drive.google.com/file/d/1jNvBdA2fRnG-w4m8zawcSeFp4FVdWGCp/preview" width="440" height="280"></iframe>
 
+## Awards
+1. **Student Project Grant | International Academy RWTH Aachen**
+
+   Received project grant for development of a drone image based solar panel dust estimation system. This project was a continuation of a      previous project involving the development of deep neural network model for the same. Refer here for more info (). As a part of this        project, initially drone image data was collected at 2 solar power generation units in Tamil Nadu (Crescent Institute of Science and        Technology and at a 15 MW solar power plant in Thenkasi.
+
+   <iframe src="https://drive.google.com/file/d/1frfdqyGKVegcxbKVoNr662YbZtls15oP/preview" width="440" height="280"></iframe>
+   <iframe src="https://drive.google.com/file/d/1edMQ4fH0RSB952jtXlrJTYzpmJhN-_Sa/preview" width="440" height="280"></iframe>
+   <iframe src="https://drive.google.com/file/d/1u4Th8CstG_rgNADBfpRCjAntKjXVsCtF/preview" width="440" height="280"></iframe>
+   
+   Further processing is to be made to make the dataset ready for re-training the machine learning model.
+
 ## Project Index <a name="projectlist"></a>
 
 1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
