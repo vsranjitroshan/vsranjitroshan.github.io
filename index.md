@@ -54,14 +54,16 @@
 
 Research project - Development of modular sensor fusion platform for environment perception
 =============================================================================
-[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_ <br />
+[Back to Project List](#projectlist) &nbsp;&nbsp; _Dec 2022_
+
+**Abstract**
 In the development of autonomous driving functions, the perception of the environment is one of the elementary and crucial building blocks. This perception part of the driving stack must be modular and decoupled in order to enable easy transmission to other vehicle functions and possibly to other vehicles to enable mutually coordinated navigation. Present environment perception systems are highly vehicle specific and are expensive. For research purposes more generic and cost minimal solutions are needed which should include different types of environment perception sensors such as camera, LIDAR etc. Apart from hardware, flexible software framework is required to run the various
 available perception algorithms such as object detection, semantic and instance segmentation. The software framework should be agile and capable of running on the variety of edge computing devices available in real time. <br />
 
 This project work involves the creation of such an optimized hardware and software system for running environment perception on the the edge. Simple, reliable and cost effective camera and LIDAR system will be used to scan the environment. The software framework will be built using C++ and compiled using the CMake build system making the entire framework platform independent and enabling cross compilation possible on different edge computing architectures. Nvidia Xavier platform will be used as the edge computing unit for running the various environment perception algorithms. The environment perception algorithms are pre-trained deep neural network architectures designed for specific tasks such as obstacle detection, traffic signal detection, road lane detection,. etc . <br />
 
 <iframe src="https://drive.google.com/file/d/1lDPHFf2NvayQ9kT3U_9i7jfj6cgJy3hm/preview" width="440" height="280"></iframe>
-*The image belongs to the research project done at IRT RWTH Aachen* <br />
+_The image belongs to the research project done at IRT RWTH Aachen_ <br />
 
 These networks will be optimized using the TensorRT optimization framework for efficient deployment and real time inference on the edge device. <br />
 
