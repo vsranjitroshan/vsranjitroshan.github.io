@@ -28,27 +28,31 @@
 
 ## Project Index <a name="projectlist"></a>
 
+### Masters in Robotic Systems Engineering
+
 1. **Research project - Development of modular sensor fusion platform for environment perception** [read more](#project1) <br />
 
-2. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
+### Bachelors in Mechanical Engineering
 
-3. **Drone development for a national level robotics competition** [read more](#projectg) <br />
+1. **Retractable arm induced dynamically stable quadrotors** [read more](#projectm) <br />
 
-4. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
+2. **Drone development for a national level robotics competition** [read more](#projectg) <br />
 
-5. **Python API to automate belt drive design** [read more](#projecta)<br />
+3. **H-I-X Quadcopter frame design fabrication and flight** [read more](#projecte) <br />
 
-6. **Data logging API for Drone test rig** [read more](#projectb)<br />
+4. **Python API to automate belt drive design** [read more](#projecta)<br />
 
-7. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
+5. **Data logging API for Drone test rig** [read more](#projectb)<br />
 
-8. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
+6. **Micro quadcopter frame design and fabrication** [read more](#projectl) <br />
 
-9. **Bicopter controller circuit design** [read more](#projecth) <br />
+7. **Robotic Arm design and circuit fabrication** [read more](#projectj) <br />
 
-10. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+8. **Bicopter controller circuit design** [read more](#projecth) <br />
 
-11. **IMU Visualization using VPython** [read more](#projectn) <br />
+9. **Quadcopter control system programming using Arduino** [read more](#projectk) <br />
+
+10. **IMU Visualization using VPython** [read more](#projectn) <br />
 
 <a name="project1"></a>
 
